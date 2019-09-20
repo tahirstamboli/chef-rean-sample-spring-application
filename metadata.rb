@@ -1,6 +1,6 @@
 name 'chef-rean-sample-spring-application'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Tahir Tamboli'
+maintainer_email 'tahir.tamboli@reancloud.com'
 license 'All Rights Reserved'
 description 'Installs/Configures chef-rean-sample-spring-application'
 long_description 'Installs/Configures chef-rean-sample-spring-application'
