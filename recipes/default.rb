@@ -4,13 +4,13 @@
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
-download_path = default['chef-rean-sample-spring-application']['download_path']
-db_user = default['chef-rean-sample-spring-application']['db_user']
-db_password = default['chef-rean-sample-spring-application']['db_password']
-db_name = default['chef-rean-sample-spring-application']['db_name']
-port = default['chef-rean-sample-spring-application']['port']
-application_context = default['chef-rean-sample-spring-application']['application_context']
-host = default['chef-rean-sample-spring-application']['host']
+download_path = node['chef-rean-sample-spring-application']['download_path']
+db_user = node['chef-rean-sample-spring-application']['db_user']
+db_password = node['chef-rean-sample-spring-application']['db_password']
+db_name = node['chef-rean-sample-spring-application']['db_name']
+port = node['chef-rean-sample-spring-application']['port']
+application_context = node['chef-rean-sample-spring-application']['application_context']
+host = node['chef-rean-sample-spring-application']['host']
 
 bash 'Install Sample Java Based Spring Application' do
     user 'root'
