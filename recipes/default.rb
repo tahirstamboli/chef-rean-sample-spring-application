@@ -20,6 +20,10 @@ bash 'Install Sample Java Based Spring Application' do
     nohup java -jar -DPORT=#{port} -DDB_NAME=#{db_name} -DDB_USER=#{db_user} -DDB_PWD=#{db_password} sampleapplication-2.0.0.jar &
     firewall-cmd --add-port=#{port}/tcp --permanent
     firewall-cmd --reload
-    echo "http://#{host}:#{port}/#{application_context}"
     EOH
 end
+
+puts "============================================="
+puts "Sample Application URL :"
+puts "http://#{host}:#{port}/#{application_context}"
+puts "============================================="
