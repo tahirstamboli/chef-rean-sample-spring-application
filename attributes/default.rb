@@ -5,4 +5,4 @@ default['chef-rean-sample-spring-application']['db_name'] = 'demo'
 default['chef-rean-sample-spring-application']['port'] = '9191'
 default['chef-rean-sample-spring-application']['application_context'] = 'SpringBootCRUDApp'
 default['chef-rean-sample-spring-application']['host'] = 'localhost'
-default['chef-rean-sample-spring-application']['enable_firewall_port'] = true
+default['chef-rean-sample-spring-application']['enable_firewall_port'] = ''
